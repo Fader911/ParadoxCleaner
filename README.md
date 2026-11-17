@@ -1,8 +1,21 @@
-# Paradox Cleaner
+# 🛡 Paradox Cleaner
+
+> **Different checksum? Clean your game. Return to the grand campaign.**
+
+[![GitHub stars](https://img.shields.io/github/stars/Fader911/ParadoxCleaner?style=for-the-badge&color=d4af37)](https://github.com/Fader911/ParadoxCleaner/stargazers)
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-0.1%20Beta-c8a76c?style=for-the-badge)
 
 Windows-утилита для подготовки игр Paradox Interactive к чистой переустановке при несовпадении контрольной суммы (checksum), конфликтах модов и повреждении пользовательских данных.
 
 Интерфейс выполнен в стилистике глобальных стратегий: тёмная палитра, золотые акценты и отдельные панели для игр.
+
+**EN:** A lightweight Windows utility for clean reinstall preparation and checksum troubleshooting in Paradox grand strategy games. Scan game files, mods and caches, then move selected files into a recoverable local archive. No third-party Python packages required.
+
+Если программа помогла тебе вернуться в мультиплеер, поставь ⭐ звезду репозиторию — это поддержит развитие проекта и поможет другим игрокам его найти.
+
+[**⬇ Скачать исходный код (ZIP)**](https://github.com/Fader911/ParadoxCleaner/archive/refs/heads/main.zip) · [**🐞 Сообщить об ошибке**](https://github.com/Fader911/ParadoxCleaner/issues)
 
 ## Поддерживаемые игры
 
@@ -68,3 +81,16 @@ python ParadoxCleaner.pyw
 ## Стек
 
 Python, Tkinter/ttk, pathlib, Windows Registry, JSON.
+
+## 🚀 Планы развития
+
+- Windows-сборка `.exe` без необходимости устанавливать Python.
+- Расширение списка поддерживаемых игр.
+- Дополнительные темы оформления и диагностика версий игры.
+- Отображение контрольной суммы, если её можно надёжно получить из данных игры.
+
+## ⭐ Поддержка проекта
+
+Поставь звезду, если Paradox Cleaner оказался полезным. Идеи, предложения и сообщения об ошибках приветствуются в [Issues](https://github.com/Fader911/ParadoxCleaner/issues).
+
+If you find Paradox Cleaner useful, please consider giving it a star on GitHub. Feedback and suggestions are welcome!
